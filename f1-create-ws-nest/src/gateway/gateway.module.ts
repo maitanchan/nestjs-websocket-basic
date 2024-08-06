@@ -4,7 +4,13 @@ import { GatewayService } from "./gateway.service";
 
 @Module({
 
-    providers: [GateWayController, GatewayService]
+    providers: [
+
+        GateWayController,
+
+        GatewayService
+
+    ]
 
 })
 export class GatewayModule { }

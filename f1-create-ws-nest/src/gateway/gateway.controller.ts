@@ -15,8 +15,9 @@ export class GateWayController implements OnModuleInit {
 
         this.server.on('connection', (socket) => {
 
-            console.log(socket.id);
-            console.log('Connected');
+            console.log(socket.id)
+
+            console.log('Connected')
 
         })
 
